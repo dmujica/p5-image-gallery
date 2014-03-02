@@ -1,5 +1,14 @@
 /* Gallery Styling */
 
+body {
+    background: #000;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
 .gallery .th {
 	float: left;
 	margin: 0 20px 10px 0;

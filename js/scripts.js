@@ -32,6 +32,10 @@ $(document).ready(function(){
 
 	});
 
+	$(document).ready(function(){
+    $('#gallery').least();
+});
+
 	console.log('Page Loaded. Lets Do this!');
 
 }); 
