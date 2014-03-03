@@ -38,3 +38,15 @@ p, h3, a {
 	font-family: 'redactedregular';
 }
 */
+
+.img-th {
+    margin: 0 5px 0 5px;
+    width: 240px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.mainpg-btn {
+    padding-left: 0px;
+    margin-top: 20px;
+}
