@@ -1,13 +1,21 @@
 /* Gallery Styling */
 
 body {
-    background: #454242;
+    background: url(../img/bg.png);
     color: #fff;
     margin: 30px 0;
 }
 
 h1 {
     color: #fff;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: darkgrey;
 }
 
 .gallery .th {
@@ -34,27 +42,81 @@ h1 {
     font-style: normal;
 }
 
-/* 
+
 p, h3, a {
 	font-family: 'redactedregular';
+
 }
-*/
+
 
 .img-th {
     margin: 0 5px 0 5px;
     width: 240px;
     height: 150px;
     overflow: hidden;
+
 }
 
 .grid,
 .list{
-    width: 8%;
+    width: 9%;
     float: right;
     margin: 0 5px 45px 5px;
-
 }
+
+.grid {
+    margin-right: 60px;
+}
+
 .mainpg-btn {
     padding-left: 0px;
     margin-top: 20px;
 }
+
+.button {
+    background: darkgrey;
+}
+
+.button:hover {
+    background: grey;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 840px) {
+    .grid,
+    .list{
+        width: 12%;
+        
+}
+
+@media screen and (max-width: 750px) {
+    .grid,
+    .list{
+        width: 12%;
+        
+}
+
+    }
+@media screen and (max-width: 650px) {
+    .grid,
+    .list{
+        width: 12%;
+        
+    }
+
+@media screen and (max-width: 550px) {
+    .grid,
+    .list{
+        width: 15%;
+        
+}
+
+@media screen and (max-width: 500px) {
+    .grid,
+    .list{
+        width: 20%;
+        
+    }
+
+    }
