@@ -8,6 +8,14 @@ body {
 
 h1 {
     color: #fff;
+    font-family: 'typoslabserif-lightregular';
+    margin-top: 10px;
+}
+
+#camera {
+    width: 7%;
+    float: left;
+    margin-right: 10px;
 }
 
 a {
@@ -40,6 +48,19 @@ a:hover {
          url('../font/redacted-regular.svg#redactedregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+/* Title Font */
+@font-face {
+    font-family: 'typoslabserif-lightregular';
+    src: url('../font/TypoSlabserif-Light-webfont.eot');
+    src: url('../font/TypoSlabserif-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/TypoSlabserif-Light-webfont.woff') format('woff'),
+         url('../font/TypoSlabserif-Light-webfont.ttf') format('truetype'),
+         url('../font/TypoSlabserif-Light-webfont.svg#typoslabserif-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
